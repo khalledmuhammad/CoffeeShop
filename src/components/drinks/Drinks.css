@@ -1,0 +1,57 @@
+.drink_container{
+    background-color: #333031;
+}
+
+.coffeText{
+    flex-direction: column;
+}
+.anime-Container{
+    height: 90vh;
+      
+}
+.coffeText h3 , span {
+    color : #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    
+}
+.coffeText b{
+    color: #996600;
+    font-size: 2rem;
+}
+
+
+.coffeAnime{
+    height: 90%;
+    margin-right: 10%;
+    z-index: 2;
+}
+.circle{
+    position: absolute;
+    margin-top: 35px;
+    height: 80%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-color: #b8860b;
+    clip-path: circle(40% at 90% 100%);
+}
+
+@media screen and (max-width:600px) 
+{
+    .drink_containe{
+        height: max-content;
+    }
+    .coffeAnime{
+        height: 50%;
+        margin-right: 0;
+        z-index: 2;
+    }
+    .circle{
+       display: none;
+    }
+    .anime-Container{
+        height: 50vh;
+          
+    }
+}

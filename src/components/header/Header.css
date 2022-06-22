@@ -1,0 +1,19 @@
+.header{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2rem;
+
+}
+.navbar{
+    background-color:#333031;
+    border-radius: 0 0 1% 1% ;
+}
+.navText{
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.navText:hover{
+    transform: scale(1.1);
+    color: teal;
+}
