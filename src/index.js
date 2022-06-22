@@ -4,12 +4,12 @@ import App from "./App";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-/* import DrinkReducer from "./store/DrinkStore"
- */ 
+ import DrinkReducer from "./store/DrinkStore"
+
 
 const store = configureStore({
   reducer : {
-   /*  Drinks : DrinkReducer */
+    Drinks : DrinkReducer 
   }
 })
 
